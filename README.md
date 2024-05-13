@@ -10,5 +10,5 @@ Equivante SQL para CRUD - Comandos:
 - Read: 'select'     Exemplo. "select * from minhatabela" - Seleciona os dados da tabela
 - Update: 'update'   Exemplo. "update minhatabela set ? where id = ?" - Atualiza os dados da tabela
 - Delete: 'delete'   Exemplo. "delete from minhatabela where id = ?" -  Apaga o registro da tabela
---------------------------------------------------------------------------------------------------
-Projeto utilizando o MySQL 
+--------------------------------------------------------------------------------------------
+  Minha página, diponivel em: https://gabizinhzs.github.io/lojabob/ 
