@@ -20,6 +20,13 @@ function Inserir(lg,sn,mail) {
 })
 }
     
-Inserir("Gabriela","387030","gabkaua@gmail.com")
+//Selecionar dados por id - select nometabela
+function selecionaPorId(id){
+    let sql ="select * from users where id = ?"
+    connection.query(sql,id,function(error,results,fields){
+        if(error) throw error
+        console.log("selecionando:" + results[0].id + ":" + results[0].login + ":" + results[0].email)
+    })
+}
 
-connection.end()
+//Selecionar todos os dados - select nometabela
